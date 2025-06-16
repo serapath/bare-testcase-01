@@ -1,12 +1,11 @@
 {
-  "name": "tell",
+  "name": "foo",
   "version": "1.0.0",
   "description": "testcase for bare",
-  "exports": "./lib/index.js",
-  "main": "lib/node_modules/demo.app",
+  "exports": "./lib/node_modules/tell/index.js",
   "scripts": {
-    "bare": "bare .",
-    "node": "node .",
+    "bare": "bare lib/demo",
+    "node": "node lib/demo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
