@@ -1,10 +1,10 @@
 # bare-testcase-01
 testcase for bare
 
-## usage
+# issue
 ```bash
 npm run node # => { text: 'hello bare, how are you today?' }
 ```
 ```bash
-npm run bare # => { text: 'hello bare, how are you today?' }
+npm run bare # => Uncaught ModuleError: MODULE_NOT_FOUND: Cannot find module 'text' imported from
 ```
