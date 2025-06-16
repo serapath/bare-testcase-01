@@ -1,0 +1,27 @@
+{
+  "name": "tell",
+  "version": "1.0.0",
+  "description": "testcase for bare",
+  "exports": "./lib/index.js",
+  "main": "lib/node_modules/demo.app",
+  "scripts": {
+    "bare": "bare .",
+    "node": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/bare-testcase-01.git"
+  },
+  "keywords": [],
+  "author": "@serapath",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/serapath/bare-testcase-01/issues"
+  },
+  "homepage": "https://github.com/serapath/bare-testcase-01#readme",
+  "devDependencies": {
+    "bare": "^1.19.0"
+  }
+}
